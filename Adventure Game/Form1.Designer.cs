@@ -107,6 +107,7 @@
             this.Controls.Add(this.option2Button);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.outputLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AdventureGame";
             this.Text = "Racing";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
