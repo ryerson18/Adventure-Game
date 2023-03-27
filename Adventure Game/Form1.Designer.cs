@@ -41,17 +41,16 @@
             // outputLabel
             // 
             this.outputLabel.BackColor = System.Drawing.Color.White;
-            this.outputLabel.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.Location = new System.Drawing.Point(12, 13);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(467, 38);
+            this.outputLabel.Size = new System.Drawing.Size(467, 80);
             this.outputLabel.TabIndex = 0;
-            this.outputLabel.Text = "label1";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(15, 67);
+            this.pictureBox1.Location = new System.Drawing.Point(15, 107);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(464, 139);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -60,7 +59,7 @@
             // 
             // option2Button
             // 
-            this.option2Button.Location = new System.Drawing.Point(15, 266);
+            this.option2Button.Location = new System.Drawing.Point(15, 306);
             this.option2Button.Name = "option2Button";
             this.option2Button.Size = new System.Drawing.Size(75, 23);
             this.option2Button.TabIndex = 3;
@@ -71,7 +70,7 @@
             // option1Label
             // 
             this.option1Label.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.option1Label.Location = new System.Drawing.Point(96, 226);
+            this.option1Label.Location = new System.Drawing.Point(96, 266);
             this.option1Label.Name = "option1Label";
             this.option1Label.Size = new System.Drawing.Size(383, 23);
             this.option1Label.TabIndex = 4;
@@ -80,7 +79,7 @@
             // option2Label
             // 
             this.option2Label.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.option2Label.Location = new System.Drawing.Point(96, 266);
+            this.option2Label.Location = new System.Drawing.Point(96, 306);
             this.option2Label.Name = "option2Label";
             this.option2Label.Size = new System.Drawing.Size(383, 23);
             this.option2Label.TabIndex = 5;
@@ -88,7 +87,7 @@
             // 
             // option1Button
             // 
-            this.option1Button.Location = new System.Drawing.Point(15, 226);
+            this.option1Button.Location = new System.Drawing.Point(15, 266);
             this.option1Button.Name = "option1Button";
             this.option1Button.Size = new System.Drawing.Size(75, 23);
             this.option1Button.TabIndex = 6;
@@ -101,7 +100,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(491, 301);
+            this.ClientSize = new System.Drawing.Size(491, 338);
             this.Controls.Add(this.option1Button);
             this.Controls.Add(this.option2Label);
             this.Controls.Add(this.option1Label);
